@@ -1,6 +1,6 @@
 # Blink for Blue Pill using Platformio & ST-Link
 ## Why is this here
-I created this repository to help you quickly bootstrap a project using the Blue Pill with Platformio & ST-Link.  It's meant to be used by those not familiar with the Blue Pill, ST-Link, Platformio or the platformio.ini settings and those migrating from the Arduino IDE to Platformio.  Many times I get stuck on things like:
+I created this repository to help quickly bootstrap a project using the Blue Pill with Platformio & ST-Link.  It's meant to be used by those not familiar with the Blue Pill, ST-Link, Platformio or the platformio.ini settings and those migrating from the Arduino IDE to Platformio.  Many times I get stuck on things like:
 - “what are the minimum platform settings I need to get a successful compile?”
 - “what’s the base code I can use to prove a valid compile and program execution?”
 - “do I use the pin number or other ID for accessing GPIO?”
@@ -16,7 +16,7 @@ This project is meant to provide confirmation of these basic things.  That being
 
 
 ## How to use this repository
-Just Clone this repository, open in VSCode with the Platformio IDE previously installed, connect your ST-Link to your Blue Pill, plug in your ST-Link to your PC via USB and upload.  If you get errors, make sure you have the STM32 Platform installed in Platformio (STM32 4.6.0 used to compile and test on 2019-02-17)...see references below.  You can DM me if you get stuck [@PiercePrimm](https://twitter.com/PiercePrimm).
+Just Clone this repository, open in VSCode with the Platformio IDE previously installed, connect your ST-Link to your Blue Pill, plug in your ST-Link to your PC via USB and upload.  If you get errors, make sure you have the STM32 Platform installed in Platformio (STM32 4.6.0 used to compile and test on 2019-02-17)...see links above.  You can DM me if you get stuck [@PiercePrimm](https://twitter.com/PiercePrimm).
 
 ## References
 - [Blue Pill Board for Platformio](https://docs.platformio.org/en/latest/boards/ststm32/bluepill_f103c8.html)
